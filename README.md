@@ -25,7 +25,7 @@ Execute the program using runserver command.
 
 ## PROGRAM
 
-
+```
 <html>
 
 <head>
@@ -33,7 +33,8 @@ Execute the program using runserver command.
 
 </head>
 <body>
-    <img src="c:\Users\Suriya\Pictures\Screenshots\timetable.png" alt="Company Logo" width="600" height="100" title="Official Logo" />
+	{% load static %}
+    <img src="{% static 'timetable.png' %}">
 </body>
 <head>
 	<style>
@@ -98,7 +99,7 @@ Execute the program using runserver command.
 				<td>python</td>
 				<td>maths</td>
 				<td>web</td>
-                                <td>web</td>
+                <td>web</td>
 			</tr>
             <tr>
                 
@@ -180,7 +181,7 @@ Execute the program using runserver command.
 </body>        
 
 </html>
-
+```
 
 ## OUTPUT
 ![Screenshot 2024-11-25 134256](https://github.com/user-attachments/assets/89462fec-eb99-4fd7-9c2c-b15ae5692336)
